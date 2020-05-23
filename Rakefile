@@ -4,3 +4,8 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+# Taken from Mr Powers GitHub pages
+
+require "frontend_generators"
+load 'tasks/add_assets.rake'
